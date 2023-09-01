@@ -1,0 +1,107 @@
+/*komentaaaaaaaaaar*/
+header{
+    color: dimgrey;
+    background: lightpink;
+    width: 60%;
+}
+
+header h1{
+    font-family: Algerian;
+    font-size: xx-large;
+    letter-spacing: 0.3cm;
+    border-bottom: solid 1pt dimgrey ; /*dotted dashed double*/
+}
+
+
+li{
+    float: left;
+
+}
+li a
+{
+    display: block;
+    color: dimgray;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:none ;
+    border-right: solid 1.2px #e76ff2;
+    padding:10px 20px;
+    font-variant: small-caps;
+
+
+
+}
+ul
+{
+list-style-type:none;
+    margin:0 ; /*otstup*/
+    padding:10px 20px; /*otstup vookrug elementa */
+    overflow: hidden;
+    background-color: lightpink;
+    width: 50%;
+}
+li a:hover
+{
+    background-color: #e76ff2;
+    color: dimgray;
+
+}
+/*pöördume ul nimikirirk*/
+.nimekirik
+{
+    text-align: center;
+    list-style-type: circle;
+    margin:0 ; /*otstup*/
+    padding:20px; /*otstup vookrug elementa */
+    background-color: lightpink;
+}
+img#pilt1
+{
+    width: 20%;
+}
+img#pilt2
+{
+    width: 30%;
+    border:dotted dimgray 2px;
+}
+img#pilt3
+{
+    width: 40%;
+    border: solid dimgray;
+    border-radius: 60px;
+}
+
+#info
+{
+    letter-spacing: 0.4cm;
+    font-family: "Times New Roman";
+    font-size: larger;
+    border: solid #7d95d4;
+    color:#FBEAEB;
+    background-color: #2F3C7E;
+    outline: solid black 1px ;
+    width: 60%;
+}
+#pildid
+{
+    letter-spacing: 1cm;
+    font-family: "Georgia";
+    font-size: larger;
+    border: solid #e37f7f;
+    color: #2042a7;
+    background-color: #EEA47F;
+    outline: solid black 1px ;
+    width: 70%;
+
+}
+#text
+{
+    letter-spacing: 0.1cm;
+    font-family: "Garamond";
+    font-size: larger;
+    border: solid dimgray;
+    color:black;
+    background-color: white;
+    outline: solid black 1px ;
+    width: 80%;
+}
